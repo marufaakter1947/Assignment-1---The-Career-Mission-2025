@@ -46,6 +46,7 @@ body{
     border-radius: 16px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 .dream-container img{
     margin-bottom: 32px;
@@ -60,4 +61,65 @@ body{
     font-size: 16px;
     color: gray;
     margin-bottom: 32px;
+}
+
+/* ----------------------Blog--------------------- */
+.blog-heading{
+    width: 852px;
+     margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+.blog-heading h2{
+font-size: 32px;
+font-weight: bolder;
+margin-bottom: 24px;
+}
+
+.blog-heading p{
+ font-size: 16px;
+    color: gray;
+    margin-bottom: 48px;
+}
+.blog-post h3{
+font-size: 24px;
+font-weight: bold;
+}
+
+/* same as dream container p */ 
+.blog-post p{    
+font-size: 16px;
+    color: gray;
+    margin-bottom: 32px;
+}
+
+.blog-container{
+    display: flex;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    padding: 48px;
+    width: 87.5%;
+    align-items: center;
+     margin-left: auto;
+    margin-right: auto; 
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+/* ---------------inspiration-------------------- */
+ .inspiration-content{
+border:5px solid black;
+border-radius: 18px;
+    padding: 32px;
+    padding-right: auto;
+     margin-left: auto;
+    margin-right: auto; 
+width: 87.5%;
+align-items: center;
+} 
+iframe{
+    border-radius: 18px;
+   
+    border:0px;
+  
 }
