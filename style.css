@@ -24,13 +24,19 @@ body{
 }
 .btn button{
     padding: 17px 24px;
-    background-image: linear-gradient(#FFA500,#f1be60);
+    background-image: linear-gradient(to right,#FFA500,#f7e3bf);
     border-radius: 10px;
     font-size: 20px;
     font-weight:600 ;
     box-shadow: grey;
     border: 0;
     box-shadow: 5px 5px 19px lightblue;
+    cursor: pointer;
+}
+.btn button:hover{
+   
+    background-image: linear-gradient(to right,#5e5d5b,#f7e3bf);
+    color: #f7f8fa;
 }
 .navbar{
     display: flex;
