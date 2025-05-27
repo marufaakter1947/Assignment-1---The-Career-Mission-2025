@@ -9,6 +9,11 @@ body{
     background-image: linear-gradient(#C6D3E3,#B2C7FF);
 }
 
+.navbar,.dream-container,.blog-container,
+.inspiration-content,.card-container{
+    margin-bottom: 100px;
+}
+
 /* --------Navbar design------------ */
 .logo h2{
     font-size: 28px;
@@ -33,7 +38,7 @@ body{
     text-align: center;
     background-color: #f7f8fa;
     padding: 24px 70px;
-    margin-bottom: 100px;
+   
 }
 
 /* -----------Dream section----------- */
@@ -46,7 +51,7 @@ body{
     border-radius: 16px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+  
 }
 .dream-container img{
     margin-bottom: 32px;
@@ -103,7 +108,7 @@ font-size: 16px;
      margin-left: auto;
     margin-right: auto; 
     justify-content: space-between;
-    margin-bottom: 100px;
+
 }
 
 /* ---------------inspiration-------------------- */
@@ -116,7 +121,7 @@ border-radius: 18px;
     margin-right: auto; 
 align-items: center;
 max-width: fit-content;
-margin-bottom: 100px;
+
 } 
 iframe{
     border-radius: 18px;
@@ -152,7 +157,7 @@ iframe{
 .card-container{
     display: flex;
     justify-content:space-evenly;
-    margin-bottom: 100px;
+   
 }
 
 /* ----------------Footer------------------- */
