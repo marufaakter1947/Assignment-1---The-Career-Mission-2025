@@ -133,6 +133,9 @@ align-items: center;
 max-width: fit-content;
 
 } 
+#inspiration-para{
+     font-family: "Azeret Mono", monospace;
+}
 iframe{
     border-radius: 18px;
    max-width: 100%;
