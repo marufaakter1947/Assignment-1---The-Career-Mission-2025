@@ -7,6 +7,7 @@
 body{
     min-height: 100vh;
     background-image: linear-gradient(#C6D3E3,#B2C7FF);
+    min-width: 100vh;
 }
 
 .navbar,.dream-container,.blog-container,
@@ -76,7 +77,7 @@ body{
 
 /* ----------------------Blog--------------------- */
 .blog-heading{
-    width: 852px;
+    width: 87.5%;
      margin-left: auto;
     margin-right: auto; 
     text-align: center;
@@ -85,16 +86,19 @@ body{
 font-size: 32px;
 font-weight: bolder;
 margin-bottom: 24px;
+
 }
 
 .blog-heading p{
  font-size: 16px;
     color: gray;
     margin-bottom: 48px;
+   
 }
 .blog-post h3{
 font-size: 24px;
 font-weight: bold;
+margin-bottom: 12px;
 }
 
 /* same as dream container p */ 
@@ -131,10 +135,20 @@ max-width: fit-content;
 } 
 iframe{
     border-radius: 18px;
-   width: 1100px;
-   height: 620px;
+   max-width: 100%;
+ 
+  object-fit: cover;
     border:0px;
   
+}
+
+.card-container {
+  width: 87.5%;
+  margin: 0px auto 120px auto;
+}
+
+.blog-image img {
+  width: 100%;
 }
 
 /* ----------------------Target------------------------------- */
@@ -143,9 +157,11 @@ iframe{
     background-image: linear-gradient(#E6EdF9,#4CB5F5);
     padding: 40px;
     border-radius: 16px;
- width: 364px;
+  width: 100%; 
+  max-width: 350px;
   box-shadow: 5px 10px 15px 8px grey;
  margin-bottom: 60px;
+ 
 }
 .card img{
     margin-bottom: 24px;
