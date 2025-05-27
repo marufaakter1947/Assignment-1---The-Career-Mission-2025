@@ -108,7 +108,7 @@ font-size: 16px;
 
 /* ---------------inspiration-------------------- */
  .inspiration-content{
-border:5px solid black;
+border:1px solid gray;
 border-radius: 18px;
     padding: 32px;
     padding-right: auto;
@@ -116,6 +116,7 @@ border-radius: 18px;
     margin-right: auto; 
 align-items: center;
 max-width: fit-content;
+margin-bottom: 100px;
 } 
 iframe{
     border-radius: 18px;
@@ -123,4 +124,33 @@ iframe{
    height: 620px;
     border:0px;
   
+}
+
+/* ----------------------Target------------------------------- */
+
+.card{
+    background-image: linear-gradient(#E6EdF9,#4CB5F5);
+    padding: 40px;
+    border-radius: 16px;
+ width: 364px;
+  box-shadow: 5px 10px 15px 8px grey;
+ margin-bottom: 60px;
+}
+.card img{
+    margin-bottom: 24px;
+}
+.card h2{
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.card a{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.card-container{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 100px;
 }
